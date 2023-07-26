@@ -8,50 +8,53 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="header">
+    <div class="container">
+    <header class="header">
         <div class="logo">Logo</div>
-        <div class="header-links">
+        <nav class="header-links">
             <ul>
                 <li>
-                <a href="">header link one</a>
+                <a href="#">Header Link One</a>
                 </li>
                 <li>
-                    <a href="">header link two</a>
+                    <a href="#">Header Link Two</a>
                 </li>
                 <li>
-                    <a href="">header link three</a>
+                    <a href="#">Header Link Three</a>
                 </li>
             </ul>
-        </div>
-    </div>
+        </nav>
+    </header>
     <div class="main-section">
         <div class="main">
             <div class="main-heading">This website is awesome</div>
             <div class="main-subtext">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</div>
             <button class="main-sign-up">Sign up</button>
         </div>
-        <div class="main-image"> 
-            <p>This is placeholder for an image</p>
+        <div>
+            <img class="main-image" src="images/pexels-drone-trotter-6678097.jpg" alt="photo of building">
         </div>
     </div>
     <div class="info-section">
         <div class="info-heading">Some random information</div>
-        <div class="info-image">
-            <img src="" alt="">
-            <p>this is some subtext under an illustration or image</p>
-        </div>
-        <div class="info-image">
-            <img src="" alt="">
-            <p>this is some subtext under an illustration or image</p>
-        </div>
-        <div class="info-image">
-            <img src="" alt="">
-            <p>this is some subtext under an illustration or image</p>
-        </div>
-        <div class="info-image">
-            <img src="" alt="">
-            <p>this is some subtext under an illustration or image</p>
-        </div>
+            <div class="info-image-container">
+                <div class="info-card">
+                    <div class="info-image"><img src="images/maps-pin-line-icon.svg" alt="" ></div>
+                    <div>this is some subtext under an illustration or image</div>
+                </div>
+                <div class="info-card">
+                    <div class="info-image"><img src="images/animal-camel-icon.svg" alt=""></div>
+                    <div>this is some subtext under an illustration or image</div>
+                </div>
+                <div class="info-card">
+                    <div class="info-image"><img src="images/plus-line-icon.svg" alt=""></div>
+                    <div>this is some subtext under an illustration or image</div>
+                </div>
+                <div class="info-card">
+                    <div class="info-image"><img src="images/fish-line-icon.svg" alt=""></div>
+                    <div>this is some subtext under an illustration or image</div>
+                </div>
+            </div>
     </div>
     <div class="quote-section">
         <div class="quote">
@@ -61,13 +64,16 @@
     </div>
     <div class="cta-section">
         <div class="cta">
-            <div class="cta-heading">Call to action! It's time!</div>
-            <div class="cta-subtext">Sign up for our product by clicking that button right over there!</div>
+            <div class="cta-text-container">
+                <div class="cta-heading">Call to action! It's time!</div>
+                <div class="cta-subtext">Sign up for our product by clicking that button right over there!</div>
+            </div>
             <button class="cta-sign-up">Sign up</button>
         </div>
     </div>
     <div class="footer">
         <div>Copyright © The Odin Project 2021</div>
     </div>
+</div>
 </body>
 </html>
