@@ -1,0 +1,136 @@
+body {
+    font-family: Roboto, Helvetica, sans-serif;
+    margin: 0;
+}
+
+/* Header Start */
+
+.header {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.header-links {
+    
+}
+
+/* Header End */
+
+/* Main Section Start */
+
+.main-section {
+    background-color: #1F2937;
+    display: flex;
+}
+
+.main {
+    
+}
+
+.main-heading {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.main-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button.main-sign-up {
+    background-color: #3882F6;
+}
+
+.main-image {
+
+}
+
+/* Main Section End */
+
+/* Info Section Start */
+
+.info-section {
+
+}
+
+.info-heading {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.info-image {
+
+}
+
+/* Info Section End */
+
+/* Quote Section Start */
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 80px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+}
+
+.quotee {
+    font-weight: 900;
+}
+
+/* Quote Section End */
+
+/* Call to Action Section Start */
+
+.cta-section {
+
+}
+
+.cta {
+    background-color: #3882F6;
+    color: #E5E7EB;
+}
+
+.cta-heading {
+    font-weight: 900;
+}
+
+.cta-subtext {
+
+}
+
+button.cta-sign-up {
+    background-color: #3882F6;
+    color: #E5E7EB;
+}
+
+/* Call to Action Section End */
+
+/*  Footer Start */
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
+
+
+
+
+
+
+
